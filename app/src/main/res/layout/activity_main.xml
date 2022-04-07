@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/plusButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="100dp"
@@ -21,7 +21,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/minusButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="215dp"
@@ -35,7 +35,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextNumber"
+        android:id="@+id/LowerText"
         android:layout_width="408dp"
         android:layout_height="48dp"
         android:ems="10"
@@ -49,7 +49,7 @@
         tools:ignore="SpeakableTextPresentCheck" />
 
     <EditText
-        android:id="@+id/editTextNumber2"
+        android:id="@+id/UpperText"
         android:layout_width="411dp"
         android:layout_height="48dp"
         android:layout_marginTop="92dp"
@@ -65,8 +65,8 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="352dp"
-        android:layout_marginBottom="396dp"
+        android:layout_marginEnd="336dp"
+        android:layout_marginBottom="400dp"
         android:enabled="false"
         android:text="TextView"
         app:layout_constraintBottom_toBottomOf="parent"
